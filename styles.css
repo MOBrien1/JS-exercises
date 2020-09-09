@@ -17,15 +17,43 @@ body {
   }
   
   button {
-    padding: 20px;
+    padding: 5px;
     background: transparent;
     text-shadow: 1px 1px 1px #202020;
     font-family: "Lato", sans-serif;
-    font-size: 18pt;
+    font-size: 10pt;
     border: 3px solid lightblue;
     color: lightblue;
   }
 
   h3 {
       color: lightblue;
-  }
+    }
+
+  h1 {
+    color: lightblue;
+    }
+
+  p {
+      color: white;
+    }
+
+  .nav-item {
+    color: white;
+}
+
+  div.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 3;
+    border: 1px solid #ffffff;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+img {
+    max-width: 130px;
+    align-self: center; 
+}
